@@ -1072,7 +1072,7 @@
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
         //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/BTC", "LTC/ETH" ]
+        "trading_pairs": [ "FLOP/USDT" ]
       },
       // dextrade: a collection of settings that pertain to the dex-trade exchange
       "dextrade": {
@@ -1083,7 +1083,7 @@
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
         //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/BTC" ]
+        "trading_pairs": [ "FLOP/USDT" ]
       },
       // freiexchange: a collection of settings that pertain to the freiexchange/freixlite exchange
       //               NOTE: freiexchange does not display a 24-hour chart due to a lack of OHLCV api data
@@ -1095,7 +1095,7 @@
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
         //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/BTC" ]
+        "trading_pairs": [ "FLOP/USDT" ]
       },
       // nonkyc: a collection of settings that pertain to the nonkyc exchange
       "nonkyc": {
@@ -1106,7 +1106,7 @@
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
         //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/USDT" ]
+        "trading_pairs": [ "FLOP/USDT" ]
       },
       // poloniex: a collection of settings that pertain to the poloniex exchange
       "poloniex": {
@@ -1117,7 +1117,7 @@
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
         //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/BTC" ]
+        "trading_pairs": [ "FLOP/USDT" ]
       },
       // xeggex: a collection of settings that pertain to the xeggex exchange
       "xeggex": {
@@ -1128,7 +1128,7 @@
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
         //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/USDT" ]
+        "trading_pairs": [ "FLOP/USDT" ]
       },
       // yobit: a collection of settings that pertain to the yobit exchange
       //        NOTE: yobit does not display a 24-hour chart due to a lack of OHLCV api data
@@ -1140,7 +1140,7 @@
         //                You can add as many trading pairs as necessary
         //                All entries must specify your coins symbol as it is displayed on the exchange, followed by a slash (/) and ending with the symbol of the market or asset that is being traded against
         //                Ex: "LTC/BTC", "LTC/USDT", "LTC/ETH"
-        "trading_pairs": [ "LTC/BTC" ]
+        "trading_pairs": [ "FLOP/USDT" ]
       }
     },
     // market_price: Determine how to calculate the market price
@@ -1166,9 +1166,9 @@
     "default_exchange": {
       // exchange_name: The name of the default exchange must exactly match the name of an exchange in the "exchanges" setting above
       //                See the list of supported exchanges above for the list of supported exchange names
-      "exchange_name": "freiexchange",
+      "exchange_name": "xeggex",
       // trading_pair: The name of the trading pair for the default exchange must exactly match the name of a trading pair from the "exchanges" setting above
-      "trading_pair": "LTC/BTC"
+      "trading_pair": "FLOP/USDT"
     }
   },
 
